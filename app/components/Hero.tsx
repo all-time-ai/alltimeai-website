@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <>
-            <section className="relative bg-black text-white w-full h-auto flex items-center overflow-hidden pb-20">
+            <section className="relative bg-black text-white w-full h-auto flex items-center overflow-hidden py-20">
 
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full overflow-hidden pointer-events-none">
                     <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-[120px]"></div>
