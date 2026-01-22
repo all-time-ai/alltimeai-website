@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 
 export default function Hero() {
@@ -39,7 +41,12 @@ export default function Hero() {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <a href="#kavach" className="px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg transition-all duration-300 text-center shadow-lg shadow-blue-600/25">
+                            <a
+                                onClick={() => {
+                                    window.open("https://kavach-ai-cam.vercel.app", "_blank");
+                                }}
+                                href="#kavach"
+                                className="px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg transition-all duration-300 text-center shadow-lg shadow-blue-600/25">
                                 Explore Kavach Cam
                             </a>
                             <a href="#tech-stack" className="px-8 py-4 border border-gray-700 hover:border-blue-400 text-gray-300 hover:text-white font-bold rounded-lg transition-all duration-300 text-center">

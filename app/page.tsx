@@ -1,3 +1,5 @@
+"use client"
+
 import AcademicIdentity from "./components/AcademicIdentity";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
