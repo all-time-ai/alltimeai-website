@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Kavach() {
     return (
         <>
@@ -9,7 +11,7 @@ export default function Kavach() {
                             Premier Example
                         </h2>
                         <h3 className="text-4xl md:text-5xl font-bold mb-6">
-                            Kavach Cam: Your Property's Digital Guardian 
+                            Kavach Cam: Your Property's Digital Guardian
                         </h3>
                         <p className="max-w-3xl text-gray-400 text-lg leading-relaxed">
                             As a premier example of our integrated technology solutions, Kavach Cam blends custom hardware manufacturing with proprietary Al/ML models to provide real-time active deterrence.
@@ -63,10 +65,13 @@ export default function Kavach() {
                         </div>
 
                         <div className="relative flex justify-center items-center h-[500px] lg:h-full">
-                            <div className="absolute w-[80%] h-[80%] bg-blue-500/10 rounded-full blur-[100px] animate-pulse"></div>
+                            <div className="absolute w-[80%] h-[80%] bg-blue-500/10 rounded-full blur-[100px] animate-pulse">
+                            </div>
 
                             <div className="relative border border-white/20 bg-black/40 backdrop-blur-sm p-8 rounded-3xl w-full h-[400px] flex items-center justify-center">
-                                <span className="text-gray-600 italic uppercase tracking-widest text-sm">Hardware Integration Visual</span>
+                                <span className="text-gray-600 italic uppercase tracking-widest text-sm">
+                                    <Image alt="hardware" src="/hardware-integration.jpeg" width={500} height={300} className="rounded-3xl" />
+                                </span>
                             </div>
                         </div>
 

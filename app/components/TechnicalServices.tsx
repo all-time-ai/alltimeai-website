@@ -58,7 +58,7 @@ const TechnicalServices = () => {
           {/* Right Side: Services Grid */}
           <div className="lg:w-2/3">
             <h4 className="text-sm font-bold uppercase tracking-widest text-gray-500 mb-8">
-              Services We Offer: [cite: 34]
+              Services We Offer:
             </h4>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {services.map((service, index) => (

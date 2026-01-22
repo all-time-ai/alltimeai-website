@@ -8,7 +8,7 @@ const LeadershipTeam = () => {
     },
     {
       name: "Akshat Singh Thakur",
-      role: "Co-Founder, CTO & Chief Product Officer (CPO)",
+      role: "Co-Founder, CEO & Chief Product Officer (CPO)",
       isFounding: false
     },
     {

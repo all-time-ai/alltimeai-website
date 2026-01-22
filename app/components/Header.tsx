@@ -1,5 +1,6 @@
 "use client"
 
+import Image from 'next/image';
 import { useState } from 'react';
 
 const Header = () => {
@@ -16,14 +17,14 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-black/60 backdrop-blur-lg border-b border-white/10">
       <div className="max-w-[1440px] mx-auto px-6 lg:px-24 h-20 flex items-center justify-between">
-        
+
         {/* Brand Logo */}
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center font-bold text-white">
-            A
+            <Image alt='A' src="/logo/logo-small.jpeg" className='rounded-lg' width={30} height={30} />
           </div>
           <span className="text-xl font-bold tracking-tighter text-white uppercase">
-            AllTimeAI [cite: 15]
+            AllTimeAI
           </span>
         </div>
 
@@ -38,16 +39,16 @@ const Header = () => {
               {link.name}
             </a>
           ))}
-          <a 
-            href="#contact" 
+          <a
+            href="#contact"
             className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-full transition-all"
           >
-            SaaS Login 
+            SaaS Login
           </a>
         </nav>
 
         {/* Mobile Menu Button */}
-        <button 
+        <button
           className="md:hidden text-white"
           onClick={() => setIsOpen(!isOpen)}
         >
@@ -75,7 +76,7 @@ const Header = () => {
             </a>
           ))}
           <button className="w-full py-4 bg-blue-600 text-white font-bold rounded-xl">
-            SaaS Login 
+            SaaS Login
           </button>
         </div>
       )}
