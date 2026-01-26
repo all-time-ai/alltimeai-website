@@ -70,7 +70,7 @@ export default function Kavach() {
 
                             <div className="relative border border-white/20 bg-black/40 backdrop-blur-sm p-8 rounded-3xl w-full h-[400px] flex items-center justify-center">
                                 <span className="text-gray-600 italic uppercase tracking-widest text-sm">
-                                    <Image alt="hardware" src="/hardware-integration.jpeg" width={500} height={300} className="rounded-3xl" />
+                                    <Image alt="hardware" src="/robot.jpg" width={500} height={300} className="rounded-3xl" />
                                 </span>
                             </div>
                         </div>

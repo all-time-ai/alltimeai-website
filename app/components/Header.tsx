@@ -21,7 +21,7 @@ const Header = () => {
         {/* Brand Logo */}
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center font-bold text-white">
-            <Image alt='A' src="/logo/logo-small.jpeg" className='rounded-lg' width={30} height={30} />
+            <Image alt='A' src="/logo/logo-small.png" className='rounded-lg' width={30} height={30} />
           </div>
           <span className="text-xl font-bold tracking-tighter text-white uppercase">
             AllTimeAI
@@ -42,8 +42,11 @@ const Header = () => {
           <a
             href="#contact"
             className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-full transition-all"
+            onClick={() => {
+              window.open("https://kavach-ai-cam.vercel.app", "_blank");
+            }}
           >
-            SaaS Login
+            Kavach Cam
           </a>
         </nav>
 

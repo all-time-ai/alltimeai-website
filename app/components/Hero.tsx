@@ -13,7 +13,7 @@ export default function Hero() {
             </div>
 
             <section className="relative bg-black text-white w-full h-auto flex items-center overflow-hidden md:py-20">
-
+``
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full overflow-hidden pointer-events-none">
                     <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-[120px]"></div>
                 </div>
@@ -49,18 +49,18 @@ export default function Hero() {
                                 className="px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg transition-all duration-300 text-center shadow-lg shadow-blue-600/25">
                                 Explore Kavach Cam
                             </a>
-                            <a href="#tech-stack" className="px-8 py-4 border border-gray-700 hover:border-blue-400 text-gray-300 hover:text-white font-bold rounded-lg transition-all duration-300 text-center">
+                            {/* <a href="#tech-stack" className="px-8 py-4 border border-gray-700 hover:border-blue-400 text-gray-300 hover:text-white font-bold rounded-lg transition-all duration-300 text-center">
                                 Our Technology Stack
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
 
-                <div className="w-1/2 hidden lg:block absolute right-[-5%] top-1/2 -translate-y-1/2 opacity-90">
-                    <div className="w-full h-1/2 mt-14 border-[1px] border-blue-500/50 rounded-full animate-pulse">
+                <div className="w-1/2 hidden lg:block absolute right-[-1%] top-1/2 -translate-y-1/2 opacity-90">
+                    <div className="w-full h-[70%] mt-14 border-[1px] border-blue-500/50 rounded-full animate-pulse">
                         <Image alt='A' src="/logo/logo-full.jpeg" className='rounded-l-full rounded-4xl' width={1000} height={1000} />
                     </div>
-                    <div className="absolute inset-10 mt-14 border-[1px] border-cyan-500/30 rounded-l-full"></div>
+                    <div className="w-full absolute inset-10 mt-14 border-[1px] border-cyan-500/30 rounded-l-full"></div>
                 </div>
             </section>
         </>
