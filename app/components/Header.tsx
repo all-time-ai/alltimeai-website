@@ -15,7 +15,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-black/60 backdrop-blur-lg border-b border-white/10">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white/60 backdrop-blur-lg border-b border-white/10 shadow-md">
       <div className="max-w-[1440px] mx-auto px-6 lg:px-24 h-20 flex items-center justify-between">
 
         {/* Brand Logo */}
@@ -23,7 +23,7 @@ const Header = () => {
           <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center font-bold text-white">
             <Image alt='A' src="/logo/logo-small.png" className='rounded-lg' width={30} height={30} />
           </div>
-          <span className="text-xl font-bold tracking-tighter text-white uppercase">
+          <span className="text-xl font-bold tracking-tighter text-black uppercase">
             AllTimeAI
           </span>
         </div>
@@ -34,7 +34,7 @@ const Header = () => {
             <a
               key={link.name}
               href={link.href}
-              className="text-sm font-medium text-gray-300 hover:text-blue-400 transition-colors"
+              className="text-sm font-medium text-slate-800 hover:text-blue-400 transition-colors"
             >
               {link.name}
             </a>

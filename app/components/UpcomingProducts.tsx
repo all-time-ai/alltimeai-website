@@ -40,7 +40,7 @@ const UpcomingProducts = () => {
   ];
 
   return (
-    <section id="roadmap" className="w-full bg-neutral-950 text-white py-24 px-6 lg:px-24 border-t border-white/5">
+    <section id="roadmap" className="w-full bg-white text-black py-24 px-6 lg:px-24 border-t border-white/5">
       <div className="max-w-[1440px] mx-auto">
         
         {/* Section Heading */}
@@ -57,10 +57,10 @@ const UpcomingProducts = () => {
         </div>
 
         {/* Roadmap Mapping  */}
-        <div className="overflow-hidden rounded-3xl border border-white/10 bg-black/40 backdrop-blur-md">
+        <div className="overflow-hidden rounded-3xl border border-slate-300 bg-white backdrop-blur-md">
           {/* Header Row */}
-          <div className="hidden md:grid grid-cols-12 bg-white/5 border-b border-white/10">
-            <div className="col-span-4 p-6 text-sm font-bold uppercase tracking-wider text-blue-400 border-r border-white/10">Sector</div>
+          <div className="hidden md:grid grid-cols-12 bg-white border-b border-slate-300">
+            <div className="col-span-4 p-6 text-sm font-bold uppercase tracking-wider text-blue-400 border-r border-slate-300">Sector</div>
             <div className="col-span-8 p-6 text-sm font-bold uppercase tracking-wider text-blue-400">Product Vision</div>
           </div>
 
@@ -68,12 +68,12 @@ const UpcomingProducts = () => {
           {roadmapData.map((item, index) => (
             <div 
               key={index} 
-              className={`grid grid-cols-1 md:grid-cols-12 border-b border-white/5 hover:bg-white/[0.02] transition-colors ${
+              className={`grid grid-cols-1 md:grid-cols-12 border-b border-slate-300 transition-colors ${
                 index === roadmapData.length - 1 ? 'border-b-0' : ''
               }`}
             >
               {/* Sector Column */}
-              <div className="col-span-4 p-8 flex items-center gap-4 border-r border-white/5">
+              <div className="col-span-4 p-8 flex items-center gap-4 border-r border-slate-300">
                 <div className="text-blue-500 bg-blue-500/10 p-2 rounded-lg">
                   {item.icon}
                 </div>
@@ -82,7 +82,7 @@ const UpcomingProducts = () => {
               
               {/* Vision Column */}
               <div className="col-span-8 p-8 flex items-center">
-                <p className="text-gray-400 leading-relaxed">
+                <p className="text-slate-800 leading-relaxed">
                   {item.vision} 
                 </p>
               </div>
@@ -92,9 +92,9 @@ const UpcomingProducts = () => {
 
         {/* Status Indicator */}
         <div className="mt-12 text-center">
-          <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-blue-500/10 border border-blue-500/20">
+          <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white border border-blue-400">
             <span className="w-2 h-2 rounded-full bg-blue-500 animate-ping"></span>
-            <p className="text-blue-400 text-sm font-medium italic">
+            <p className="text-blue-500 text-sm font-medium italic">
               Currently scaling intellectual property into new frontiers.
             </p>
           </div>

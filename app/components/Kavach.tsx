@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Kavach() {
     return (
         <>
-            <section id="kavach" className="w-full bg-neutral-950 text-white py-20 px-6 lg:px-24 border-t border-white/5">
+            <section id="kavach" className="w-full bg-white text-black py-20 px-6 lg:px-24 border-t border-white/5">
                 <div className="max-w-[1440px] mx-auto">
 
                     <div className="mb-16">
@@ -22,7 +22,7 @@ export default function Kavach() {
 
                         <div className="space-y-6">
 
-                            <div className="p-6 rounded-2xl bg-gradient-to-br from-neutral-900 to-neutral-800 border border-white/10 hover:border-blue-500/50 transition-colors group">
+                            <div className="p-6 rounded-2xl bg-gradient-to-br from-white to-slate-100 border border-slate-300 hover:border-blue-500/50 transition-colors group">
                                 <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600/40 transition-colors">
                                     <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
                                 </div>
@@ -32,7 +32,7 @@ export default function Kavach() {
                                 </p>
                             </div>
 
-                            <div className="p-6 rounded-2xl bg-gradient-to-br from-neutral-900 to-neutral-800 border border-white/10 hover:border-red-500/50 transition-colors group">
+                            <div className="p-6 rounded-2xl bg-gradient-to-br from-white to-slate-100 border border-slate-300 hover:border-red-500/50 transition-colors group">
                                 <div className="w-12 h-12 bg-red-600/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-red-600/40 transition-colors">
                                     <svg className="w-6 h-6 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
                                 </div>
@@ -42,7 +42,7 @@ export default function Kavach() {
                                 </p>
                             </div>
 
-                            <div className="p-6 rounded-2xl bg-gradient-to-br from-neutral-900 to-neutral-800 border border-white/10 hover:border-cyan-500/50 transition-colors group">
+                            <div className="p-6 rounded-2xl bg-gradient-to-br from-white to-slate-100 border border-slate-300 hover:border-cyan-500/50 transition-colors group">
                                 <div className="w-12 h-12 bg-cyan-600/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-cyan-600/40 transition-colors">
                                     <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" /></svg>
                                 </div>
@@ -52,7 +52,7 @@ export default function Kavach() {
                                 </p>
                             </div>
 
-                            <div className="p-6 rounded-2xl bg-gradient-to-br from-neutral-900 to-neutral-800 border border-white/10 hover:border-purple-500/50 transition-colors group">
+                            <div className="p-6 rounded-2xl bg-gradient-to-br from-white to-slate-100 border border-slate-300 hover:border-purple-500/50 transition-colors group">
                                 <div className="w-12 h-12 bg-purple-600/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-purple-600/40 transition-colors">
                                     <svg className="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>
                                 </div>
@@ -68,7 +68,7 @@ export default function Kavach() {
                             <div className="absolute w-[80%] h-[80%] bg-blue-500/10 rounded-full blur-[100px] animate-pulse">
                             </div>
 
-                            <div className="relative border border-white/20 bg-black/40 backdrop-blur-sm p-8 rounded-3xl w-full h-[400px] flex items-center justify-center">
+                            <div className="relative border border-white/20 bg-slate-100 backdrop-blur-sm p-8 rounded-3xl w-full h-[400px] flex items-center justify-center">
                                 <span className="text-gray-600 italic uppercase tracking-widest text-sm">
                                     <Image alt="hardware" src="/robot.jpg" width={500} height={300} className="rounded-3xl" />
                                 </span>

@@ -32,7 +32,7 @@ const TechnicalServices = () => {
   ];
 
   return (
-    <section id="services" className="w-full bg-black text-white py-24 px-6 lg:px-24 border-t border-white/5">
+    <section id="services" className="w-full bg-white text-black py-24 px-6 lg:px-24 border-t border-white/5">
       <div className="max-w-[1440px] mx-auto">
         
         <div className="flex flex-col lg:flex-row gap-16">
@@ -64,7 +64,7 @@ const TechnicalServices = () => {
               {services.map((service, index) => (
                 <div 
                   key={index} 
-                  className="p-8 rounded-2xl bg-neutral-900/40 border border-white/10 hover:border-blue-500/50 transition-all group"
+                  className="p-8 rounded-2xl bg-white border border-white hover:border-blue-500/50 shadow-lg transition-all group"
                 >
                   <div className="w-12 h-12 rounded-lg bg-blue-600/10 flex items-center justify-center text-blue-500 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all">
                     {service.icon}

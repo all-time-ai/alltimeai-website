@@ -12,7 +12,7 @@ export default function Hero() {
                 </div>
             </div>
 
-            <section className="relative bg-black text-white w-full h-auto flex items-center overflow-hidden md:py-20">
+            <section className="relative bg-white text-black w-full h-auto flex items-center overflow-hidden md:py-20">
 ``
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full overflow-hidden pointer-events-none">
                     <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-[120px]"></div>
@@ -22,7 +22,7 @@ export default function Hero() {
                 <div className="container mx-auto px-6 relative z-10 pt-20">
                     <div className="md:max-w-4xl w-full">
                         <div className="md:w-auto w-full inline-block px-4 py-1.5 mb-6 border border-blue-500/30 bg-blue-500/10 rounded-full">
-                            <span className="md:pl-0 pl-12 text-sm md:text-left text-center font-semibold tracking-wider text-blue-400 uppercase">
+                            <span className="md:pl-0 pl-12 text-sm md:text-left text-center font-semibold tracking-wider text-blue-800 uppercase">
                                 The Intelligence Revolution
                             </span>
                         </div>
@@ -34,7 +34,7 @@ export default function Hero() {
                             </span>
                         </h1>
 
-                        <p className="text-lg md:text-xl text-gray-400 max-w-2xl mb-10 leading-relaxed">
+                        <p className="text-lg md:text-xl text-gray-800 max-w-2xl mb-10 leading-relaxed">
                             AllTimeAl engineers high-performance Al-powered hardware and software ecosystems.
                             We bridge the gap between passive recording and proactive automation to secure residential,
                             commercial, and industrial sectors.
@@ -56,8 +56,8 @@ export default function Hero() {
                     </div>
                 </div>
 
-                <div className="w-1/2 hidden lg:block absolute right-[-1%] top-1/2 -translate-y-1/2 opacity-90">
-                    <div className="w-full h-[70%] mt-14 border-[1px] border-blue-500/50 rounded-full animate-pulse">
+                <div className="w-1/2 hidden lg:block absolute right-[-1%] top-1/2 -translate-y-1/2 ">
+                    <div className="w-full h-[70%] mt-14 border-[1px] border-blue-500/50 rounded-full">
                         <Image alt='A' src="/logo/logo-full.jpeg" className='rounded-l-full rounded-4xl' width={1000} height={1000} />
                     </div>
                     <div className="w-full absolute inset-10 mt-14 border-[1px] border-cyan-500/30 rounded-l-full"></div>

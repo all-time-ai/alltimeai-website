@@ -29,7 +29,7 @@ const LeadershipTeam = () => {
   ];
 
   return (
-    <section id="leadership" className="w-full bg-black text-white py-24 px-6 lg:px-24">
+    <section id="leadership" className="w-full bg-white text-black py-24 px-6 lg:px-24">
       <div className="max-w-[1440px] mx-auto">
         
         {/* Section Heading [cite: 23, 24, 25] */}
@@ -52,8 +52,8 @@ const LeadershipTeam = () => {
               key={index} 
               className={`p-8 rounded-2xl border transition-all duration-300 group ${
                 member.isFounding 
-                ? 'border-blue-500/40 bg-blue-500/5 hover:bg-blue-500/10' 
-                : 'border-white/10 bg-neutral-900/40 hover:border-blue-500/30'
+                ? 'bg-white border-blue-500/40 hover:border-blue-500/30' 
+                : 'bg-white border-blue-500/30 hover:border-blue-500/30'
               }`}
             >
               {/* Profile Placeholder Icon */}
