@@ -52,7 +52,7 @@ const Header = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-white"
+          className="md:hidden text-black"
           onClick={() => setIsOpen(!isOpen)}
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -67,19 +67,24 @@ const Header = () => {
 
       {/* Mobile Navigation Overlay */}
       {isOpen && (
-        <div className="md:hidden bg-black border-b border-white/10 px-6 py-8 space-y-6">
+        <div className="md:hidden bg-white border-b border-black px-6 py-8 space-y-6">
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className="block text-xl font-medium text-gray-300 hover:text-blue-400"
+              className="block text-xl font-medium text-black hover:text-blue-400"
             >
               {link.name}
             </a>
           ))}
-          <button className="w-full py-4 bg-blue-600 text-white font-bold rounded-xl">
-            SaaS Login
+          <button
+            onClick={() => {
+              window.open("https://kavach-ai-cam.vercel.app", "_blank");
+            }}
+            className="w-full py-4 bg-blue-600 text-white font-bold rounded-xl"
+          >
+            Explore Kavach Cam
           </button>
         </div>
       )}
