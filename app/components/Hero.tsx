@@ -27,14 +27,14 @@ export default function Hero() {
                             </span>
                         </div>
 
-                        <h1 className="text-5xl md:text-left text-center md:text-7xl font-bold tracking-tight mb-6 leading-tight">
+                        <h1 className="text-5xl md:text-left text-center md:text-7xl text-blue-900 font-bold tracking-tight mb-6 leading-tight">
                             Beyond Observation. <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
                                 Active Intelligence.
                             </span>
                         </h1>
 
-                        <p className="text-lg md:text-xl text-gray-800 max-w-2xl mb-10 leading-relaxed">
+                        <p className="text-lg md:text-xl text-sky-900 max-w-2xl mb-10 leading-relaxed">
                             AllTimeAl engineers high-performance Al-powered hardware and software ecosystems.
                             We bridge the gap between passive recording and proactive automation to secure residential,
                             commercial, and industrial sectors.

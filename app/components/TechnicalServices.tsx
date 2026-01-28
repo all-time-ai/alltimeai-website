@@ -40,12 +40,12 @@ const TechnicalServices = () => {
           {/* Left Side: Collaboration Info */}
           <div className="lg:w-1/3">
             <h2 className="text-blue-500 font-mono tracking-widest uppercase mb-4 text-sm">
-              Partnerships [cite: 32]
+              Partnerships 
             </h2>
             <h3 className="text-4xl font-bold mb-6">
               Collaboration for Growth 
             </h3>
-            <p className="text-gray-400 text-lg leading-relaxed mb-8">
+            <p className="text-gray-500 text-lg leading-relaxed mb-8">
               We actively enter into joint ventures and agreements with universities, incubation centers, and government bodies to scale our innovations. 
             </p>
             <div className="inline-block px-6 py-4 border border-blue-500/30 rounded-xl bg-blue-500/5">
@@ -72,7 +72,7 @@ const TechnicalServices = () => {
                   <h5 className="text-xl font-bold mb-3">
                     {service.title}
                   </h5>
-                  <p className="text-gray-400 text-sm leading-relaxed">
+                  <p className="text-gray-500 text-sm leading-relaxed">
                     {service.description}
                   </p>
                 </div>

@@ -29,8 +29,8 @@ export default function AcademicIdentity() {
                                     </svg>
                                 </div>
                                 <h4 className="text-xl font-bold mb-4">Full-Stack Innovation</h4>
-                                <p className="text-gray-400 text-sm leading-relaxed">
-                                    We manage the entire lifecycle from hardware assembly to software deployment and system integration. [cite: 17]
+                                <p className="text-slate-600 text-sm leading-relaxed">
+                                    We manage the entire lifecycle from hardware assembly to software deployment and system integration. 
                                 </p>
                             </div>
 
@@ -41,8 +41,8 @@ export default function AcademicIdentity() {
                                     </svg>
                                 </div>
                                 <h4 className="text-xl font-bold mb-4">Research-First Approach</h4>
-                                <p className="text-gray-400 text-sm leading-relaxed">
-                                    Operating out of dedicated R&D laboratories, we investigate emerging technologies like Blockchain and Web3 to enhance digital security. [cite: 18]
+                                <p className="text-slate-600 text-sm leading-relaxed">
+                                    Operating out of dedicated R&D laboratories, we investigate emerging technologies like Blockchain and Web3 to enhance digital security. 
                                 </p>
                             </div>
 
@@ -53,7 +53,7 @@ export default function AcademicIdentity() {
                                     </svg>
                                 </div>
                                 <h4 className="text-xl font-bold mb-4">Ethical & Compliant</h4>
-                                <p className="text-gray-400 text-sm leading-relaxed">
+                                <p className="text-slate-600 text-sm leading-relaxed">
                                     Every product we build is designed for global standards, ensuring strict compliance with GDPR and the DPDP Act.
                                 </p>
                             </div>

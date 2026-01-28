@@ -26,6 +26,7 @@ const Header = () => {
           <span className="text-xl font-bold tracking-tighter text-black uppercase">
             AllTimeAI
           </span>
+          <span className='h-8 flex items-start justify-start text-[12px] font-semibold text-red-800' >TM</span>
         </div>
 
         {/* Desktop Navigation */}

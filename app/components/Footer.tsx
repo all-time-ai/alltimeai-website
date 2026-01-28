@@ -26,7 +26,7 @@ const Footer = () => {
                 <span className="text-white font-medium block">Registered Office: </span>
                 Dept. of Computer Science and Engineering, <br />
                 Jabalpur Engineering College, <br />
-                Jabalpur (M.P.). 
+                Gokalpur, Jabalpur (M.P.). 
               </p>
             </div>
           </div>
