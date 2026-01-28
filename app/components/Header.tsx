@@ -44,7 +44,7 @@ const Header = () => {
             href="#contact"
             className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-full transition-all"
             onClick={() => {
-              window.open("https://kavach-ai-cam.vercel.app", "_blank");
+              window.open("", "_blank");
             }}
           >
             Kavach Cam

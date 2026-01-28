@@ -43,7 +43,7 @@ export default function Hero() {
                         <div className="flex flex-col sm:flex-row gap-4">
                             <a
                                 onClick={() => {
-                                    window.open("https://kavach-ai-cam.vercel.app", "_blank");
+                                    window.open("", "_blank");
                                 }}
                                 href="#kavach"
                                 className="px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg transition-all duration-300 text-center shadow-lg shadow-blue-600/25">
