@@ -44,7 +44,7 @@ const Header = () => {
             href="#contact"
             className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-full transition-all"
             onClick={() => {
-              window.open("", "_blank");
+              window.open("https://kavach.alltimeai.com", "_blank");
             }}
           >
             Kavach Cam
@@ -81,7 +81,7 @@ const Header = () => {
           ))}
           <button
             onClick={() => {
-              window.open("https://kavach-ai-cam.vercel.app", "_blank");
+              window.open("https://kavach.alltimeai.com", "_blank");
             }}
             className="w-full py-4 bg-blue-600 text-white font-bold rounded-xl"
           >

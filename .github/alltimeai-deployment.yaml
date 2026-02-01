@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alltimeai-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: alltimeai
+  template:
+    metadata:
+      labels:
+        app: alltimeai
+    spec:
+      containers:
+      - name: alltimeai
+        image: alltimeai/website:alltimeai
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000
+      imagePullSecrets:
+      - name: dockerhub-secret
