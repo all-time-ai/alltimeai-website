@@ -19,7 +19,7 @@ export default function Home() {
       <Kavach />
       <AcademicIdentity />
       <UpcomingProducts />
-      {/* <LeadershipTeam /> */}
+      <LeadershipTeam />
       <TechnicalServices />
       <Footer />
     </div>
