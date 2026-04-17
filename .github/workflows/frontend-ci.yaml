@@ -34,7 +34,7 @@ jobs:
         with:
           images: ${{ secrets.DOCKERHUB_USERNAME }}/nextjs-frontend
           tags: |
-            type=latest
+            type=raw,value=alltimeai
             type=sha
 
       # Build and Push Docker Image
