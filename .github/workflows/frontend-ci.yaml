@@ -32,7 +32,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ secrets.DOCKERHUB_USERNAME }}/nextjs-frontend
+          images: ${{ secrets.DOCKERHUB_USERNAME }}/website
           tags: |
             type=raw,value=alltimeai
             type=sha
