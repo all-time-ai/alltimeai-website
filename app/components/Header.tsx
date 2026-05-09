@@ -44,10 +44,10 @@ const Header = () => {
             href="#contact"
             className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-full transition-all"
             onClick={() => {
-              window.open("https://kavach.alltimeai.com", "_blank");
+              window.open("https://rakshak.alltimeai.com", "_blank");
             }}
           >
-            Kavach Cam
+            Rakshak Cam
           </a>
         </nav>
 
@@ -81,11 +81,11 @@ const Header = () => {
           ))}
           <button
             onClick={() => {
-              window.open("https://kavach.alltimeai.com", "_blank");
+              window.open("https://rakshak.alltimeai.com", "_blank");
             }}
             className="w-full py-4 bg-blue-600 text-white font-bold rounded-xl"
           >
-            Explore Kavach Cam
+            Explore Rakshak Cam
           </button>
         </div>
       )}

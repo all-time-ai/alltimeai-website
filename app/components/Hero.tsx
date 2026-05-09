@@ -67,10 +67,10 @@ export default function Hero() {
 
                         <div className="flex flex-col sm:flex-row gap-4">
                             <button
-                                onClick={() => window.open("https://kavach.alltimeai.com", "_blank")}
+                                onClick={() => window.open("https://rakshak.alltimeai.com", "_blank")}
                                 className="px-10 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-all duration-300 shadow-xl shadow-blue-600/20 transform hover:-translate-y-1 cursor-pointer"
                             >
-                                Explore Kavach Cam
+                                Explore Rakshak Cam
                             </button>
 
                             {/* <button className="px-10 py-4 border-2 border-blue-100 hover:border-blue-600 text-blue-700 font-bold rounded-xl transition-all duration-300 bg-white/60 backdrop-blur-sm">

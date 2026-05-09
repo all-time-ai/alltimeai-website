@@ -11,10 +11,10 @@ export default function Kavach() {
                             Premier Example
                         </h2>
                         <h3 className="text-4xl md:text-5xl font-bold mb-6">
-                            Kavach Cam: Your Property's Digital Guardian
+                           AllTimeAI Rakshak: Your Property's Digital Guardian
                         </h3>
                         <p className="max-w-3xl text-sky-800 text-lg leading-relaxed">
-                            As a premier example of our integrated technology solutions, Kavach Cam blends custom hardware manufacturing with proprietary Al/ML models to provide real-time active deterrence.
+                            As a premier example of our integrated technology solutions, Rakshak Cam blends custom hardware manufacturing with proprietary Al/ML models to provide real-time active deterrence.
                         </p>
                     </div>
 
