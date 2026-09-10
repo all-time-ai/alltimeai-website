@@ -7,7 +7,6 @@ import Hero from "./components/Hero";
 import Kavach from "./components/Kavach";
 import LeadershipTeam from "./components/LeadershipTeam";
 import TechnicalServices from "./components/TechnicalServices";
-import ThemeToggle from "./components/ThemeToggle";
 import UpcomingProducts from "./components/UpcomingProducts";
 
 export default function Home() {
