@@ -1,6 +1,5 @@
-"use client"
-
 import AcademicIdentity from "./components/AcademicIdentity";
+import Capabilities from "./components/Capabilities";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -11,15 +10,17 @@ import UpcomingProducts from "./components/UpcomingProducts";
 
 export default function Home() {
   return (
-    <div className="w-full h-full flex flex-col items-center justify-start" >
-      {/* <ThemeToggle /> */}
+    <div className="w-full flex flex-col items-center">
       <Header />
-      <Hero />
-      <Kavach />
-      <AcademicIdentity />
-      <UpcomingProducts />
-      <LeadershipTeam />
-      <TechnicalServices />
+      <main className="w-full">
+        <Hero />
+        <Capabilities />
+        <Kavach />
+        <AcademicIdentity />
+        <UpcomingProducts />
+        <LeadershipTeam />
+        <TechnicalServices />
+      </main>
       <Footer />
     </div>
   );

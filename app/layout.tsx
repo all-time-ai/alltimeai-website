@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -13,8 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AllTimeAI — Intelligent AI Solutions",
-  description: "AllTimeAI engineers high-performance AI-powered hardware and software ecosystems for smart security, IoT, and automation.",
+  title: "AllTimeAI — Intelligence that acts",
+  description:
+    "AllTimeAI engineers AI-powered hardware and software ecosystems for smart security, IoT, and automation — from edge devices to cloud platforms.",
+  openGraph: {
+    title: "AllTimeAI — Intelligence that acts",
+    description:
+      "AI-powered hardware and software ecosystems for smart security, IoT, and automation.",
+    type: "website",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#04070a",
 };
 
 export default function RootLayout({
@@ -24,9 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
